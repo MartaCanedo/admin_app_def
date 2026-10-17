@@ -1,16 +1,42 @@
-# admin_app
+# Campus Link — Admin Desktop App
 
-A new Flutter project.
+A desktop administration application for Campus Link, developed with Flutter and Dart. The project integrates Firebase services for authentication, cloud data management, file storage, and push notifications.
+
+## Tech Stack
+
+- **Flutter & Dart** — Cross-platform application development
+- **Firebase Authentication** — User authentication
+- **Cloud Firestore** — Cloud database
+- **Firebase Storage** — File storage
+- **Firebase Cloud Messaging** — Push notifications
+- **FL Chart** — Data visualization
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK
+- Dart SDK
+- Access to the required Firebase configuration
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/Theproxycos/admin_app_def.git
+cd admin_app_def
+flutter pub get
+flutter run -d windows
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+- `lib/` — Application source code
+- `assets/` — Application assets and logos
+- `test/` — Test files
+
+## Security Notice
+
+Some project files have been intentionally omitted to protect sensitive project information. The repository may therefore require additional configuration before it can run independently.
+
+## Author
+
+[Theproxycos](https://github.com/Theproxycos)
